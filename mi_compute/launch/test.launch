@@ -1,0 +1,9 @@
+
+<launch>
+
+    <arg name="map" default= "$(find mi_compute)/maps/bucket.yaml" />
+    <node pkg="map_server" name="map_server" type="map_server" args="$(arg map)"/>
+
+    <node pkg="mi_compute" name="mi_compute_node" type="mi_compute_node" output = "screen"/>
+
+</launch>
