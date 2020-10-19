@@ -1,8 +1,0 @@
-prefix=/home/gzx/catkin_ws/src/mi_compute/cmake-build-debug/devel
-
-Name: mi_compute
-Description: Description of mi_compute
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
